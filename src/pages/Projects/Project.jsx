@@ -8,7 +8,6 @@ const Project = ({project}) => {
             <h3 className="text-xl font-bold mb-4"> { project?.title } </h3>
             <h3 className="text-xl font-bold mb-4"> { project?.technology } </h3>
             <h3 className="text-xl font-bold mb-4"> { project?.features } </h3>
-            <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum quam vel ipsum.</p>
             <Link to={project?.link} target='_blank'>Website || </Link>
             <Link to={project?.client} target='_blank'>Clint Code || </Link>
             <Link to={project?.server} target='_blank'>Server Code </Link>
