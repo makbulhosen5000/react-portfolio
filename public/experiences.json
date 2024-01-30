@@ -54,8 +54,7 @@
     {
         "id":"6",
         "title":"Add To Cart Implementation",
-        "description":"product create, read, 
-        update, delete",
+        "description":"product create, read, update, delete",
         "technology":"HTML, CSS, TAILWIND, LIVEWIRE, LARAVEL, MySQL",
         "server":"https://github.com/makbulhosen5000/add-to-cart-laravel-livewire",
         "image":""

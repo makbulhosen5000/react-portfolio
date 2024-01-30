@@ -4,6 +4,7 @@ import Skills from '../../pages/Skills/Skills';
 import Projects from '../../pages/Projects/Projects';
 import Contacts from '../../pages/Contact/Contact';
 import Banner from '../Banner/Banner';
+import Experiences from '../../pages/experiences/Experiences';
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
         <Banner/>
         <Skills/>
         <Projects/>
+        <Experiences/>
         <Contacts/>         
         </>
     );

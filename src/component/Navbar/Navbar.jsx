@@ -46,6 +46,16 @@ const Navbar = () => {
         Projects
       </Link>
       <Link
+        to="/experience"
+        className={`text-black hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium ${
+          location.pathname === "/experience"
+            ? "bg-yellow-300 text-black"
+            : "text-gray-100"
+        }`}
+      >
+        Experiences
+      </Link>
+      <Link
         to="/contact"
         className={`text-black hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium ${
           location.pathname === "/contact"
