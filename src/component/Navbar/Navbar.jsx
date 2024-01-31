@@ -43,7 +43,7 @@ const Navbar = () => {
             : "text-gray-100"
         }`}
       >
-        Projects
+        Project
       </Link>
       <Link
         to="/experience"
@@ -53,7 +53,17 @@ const Navbar = () => {
             : "text-gray-100"
         }`}
       >
-        Experiences
+        Experience
+      </Link>
+      <Link
+        to="/education"
+        className={`text-black hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium ${
+          location.pathname === "/education"
+            ? "bg-yellow-300 text-black"
+            : "text-gray-100"
+        }`}
+      >
+        Education
       </Link>
       <Link
         to="/contact"
@@ -65,8 +75,6 @@ const Navbar = () => {
       >
         Contact
       </Link>
-
-
     </>
   );
   return (

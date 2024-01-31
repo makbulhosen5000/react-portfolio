@@ -5,7 +5,7 @@
         "technology":"HTML, CSS, TAILWIND, REACT, EXPRESS, NODE, MongoDB",
         "features":"firebase authentication, login with google and github,fb messenger, age calculator,api",
         "link":"https://bookbstore.netlify.app/",
-        "client":"",
+        "client":"https://github.com/makbulhosen5000/book-store-client",
         "server":"https://github.com/makbulhosen5000/book-store-server",
         "image":""
     },
@@ -35,6 +35,7 @@
         "technology":"HTML, CSS, BOOTSTRAP, LARAVEL, MySQL",
         "features":"timer, mail, google map, what's up,ui auth",
         "link":"https://masjidalummah.com.au/",
+        "client":"https://github.com/mhakash5000/masjidalummah",
         "server":"https://github.com/mhakash5000/masjidalummah",
         "image":""
     },
@@ -46,7 +47,7 @@
         "features":"search, pagination, email notification, dropify, dropzone",
         "package":"laravel-dompdf, stripe payment, laravel/breeze, multi-auth",
         "link":"",
-        "client":"",
+        "client":"https://github.com/makbulhosen5000/laravel-lomeyo-ecommerce",
         "server":"https://github.com/makbulhosen5000/laravel-lomeyo-ecommerce",
         "image":""
     },
@@ -89,7 +90,7 @@
     },
     {
         "id":"10",
-        "title":"sn-advance-limited",
+        "title":"Sn Advance Ltd",
         "technology":"HTML, CSS, BOOTSTRAP, LARAVEL, MySQL",
         "features":"search, pagination, laravel-dompdf, ui auth, bumbummen99/shoppingcart",
         "link":"https://project01.snadvanceltd.com",

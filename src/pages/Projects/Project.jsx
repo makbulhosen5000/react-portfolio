@@ -5,12 +5,12 @@ const Project = ({project}) => {
 
     return (
         <div className="bg-white p-6 rounded-lg shadow-2xl hover:bg-slate-500">
-            <h3 className="text-xl font-bold mb-4"> { project?.title } </h3>
-            <h3 className="text-xl font-bold mb-4"> { project?.technology } </h3>
-            <h3 className="text-xl font-bold mb-4"> { project?.features } </h3>
-            <Link to={project?.link} target='_blank'>Website || </Link>
-            <Link to={project?.client} target='_blank'>Clint Code || </Link>
-            <Link to={project?.server} target='_blank'>Server Code </Link>
+            <p className="text-xl font-bold mb-4"> Title: {project?.title } </p>
+            <p className=" mb-4"> <span className='font-bold'>Technologies:</span> {project?.technology } </p>
+            <p className="mb-4"><span className='font-bold'>Features:</span> {project?.features } </p>
+            <Link to={project?.link} target='_blank' className='font-bold'>Website || </Link>
+            <Link to={project?.client} target='_blank' className='font-bold'>Clint Code || </Link>
+            <Link to={project?.server} target='_blank' className='font-bold'>Server Code </Link>
         </div>
     );
 };
