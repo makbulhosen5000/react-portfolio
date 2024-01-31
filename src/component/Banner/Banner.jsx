@@ -25,9 +25,9 @@ const Banner = () => {
                     <p className=''>{'}'}</p>
                 </div>
                 <div className="text-start">
-                  <Link to={resume}>
-                    <button type='download' className='bg-yellow-300 p-2 rounded-lg text-black'>Download Resume</button>
-                  </Link>
+                  
+                    <button type='download' className='bg-yellow-300 p-2 rounded-lg text-black hover:bg-yellow-200'><Link to={resume}>UNDER DEVELOPMENT</Link></button>
+                
                 </div>
                 </div>
             </div>
