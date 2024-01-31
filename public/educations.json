@@ -1,0 +1,41 @@
+[
+    {
+        "id":"1",
+        "title":"Diploma In CSE",
+        "period":" 2008 - 2012",
+        "university_name":"Atish Dipankar University Of Science And Technology",
+        "university_address":" Islampur, Bijoynagar, Brahmanbaria, Bangladesh. "
+    },
+    {
+        "id":"2",
+        "title":"Bsc In CSE",
+        "period":" 2021 - incomplete        ",
+        "university_name":"Atish Dipankar University Of Science And Technology",
+        "university_address":" Plot # 209, Khantek, Sector # 15, Uttara, Dhaka, Bangladesh",
+    },
+    {
+        "id":"3",
+        "title":"Web Development Course With Jhanker Mahbub / Course",
+        "period":" Jan-01-2023 - Sep-30-2023        ",
+        "university_name":"Programming Hero",
+        "university_address":"Level-4, 34, Awal Centre, Banani, Dhaka"
+    },
+    {
+        "id":"4",
+        "title":"Laravel Development",
+        "period":" July-14-2023 - Present",
+        "university_name":"Ostad",
+        "university_address":"Ka-6/a, Navana Sylvania, Baridhara Road, Nadda, Gulshan-2, Dhaka-1212"
+    },
+    {
+        "id":"4",
+        "title":"Laravel and React Development",
+        "period":" Jan-01-2023 - Present",
+        "university_name":"Themezone Academy",
+        "university_address":"Space # 707, 6 of Lift, Shah Ali Plaza, 6th floor, Mirpur:10, Dhaka, Bangladesh"
+    }
+
+
+
+
+]
