@@ -1,11 +1,11 @@
 import React from 'react';
 import profileImage from '../../assets/images/profile.png';
 import bannerImg from '../../assets/images/banner3.jpg';
-import resume from '../../assets/resume/makbul-resume.pdf';
 import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
+    let resume = "https://drive.google.com/file/d/15tC2oeDYG2amj5Mb9xgqsy22M5NsA_GC/view?usp=drive_link"
     return (
         <>
         <div className="bg-gray-900 text-white">
@@ -25,8 +25,8 @@ const Banner = () => {
                     <p className=''>{'}'}</p>
                 </div>
                 <div className="text-start">
-                  
-                    <button type='download' className='bg-yellow-300 p-2 rounded-lg text-black hover:bg-yellow-200'><Link to={resume}>UNDER DEVELOPMENT</Link></button>
+               
+                    <button className='bg-yellow-300 p-2 rounded-lg text-black hover:bg-yellow-200'><Link to={resume}>UNDER DEVELOPMENT</Link></button>
                 
                 </div>
                 </div>
