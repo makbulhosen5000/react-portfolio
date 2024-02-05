@@ -4,7 +4,10 @@ import developer1 from '../../assets/json/programming-1.json';
 
 const Contact = () => {
     return (
-      <section id="skills" className="bg-gray-200 py-8 mt-8">
+      <section id="skills" className="bg-gray-200 py-8 mt-8" 
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div className="container mx-auto">
                 <h2 className="text-3xl md:text-4xl font-bold underline py-8">Contact</h2>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
@@ -12,7 +15,7 @@ const Contact = () => {
         <div className='' data-aos="fade-up-right">
             <Lottie animationData={developer1} />     
         </div> 
-        <div className="mx-auto my-8 p-8 bg-gradient-to-r from-slate-950 to-slate-950  shadow-md rounded-md max-w-xl" data-aos="flip-left">
+        <div className="mx-auto my-8 p-8 bg-gradient-to-r from-slate-950 to-slate-950  shadow-md rounded-md max-w-xl">
             <h2 className='text-3xl font-bold text-yellow-300 mb-6' data-aos="fade-up-left">Have a project in your mind, just want to say hi !</h2>
         <form>
           <div className="mb-4">
