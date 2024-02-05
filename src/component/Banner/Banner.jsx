@@ -26,7 +26,7 @@ const Banner = () => {
                 </div>
                 <div className="text-start">
                
-                    <button className='bg-yellow-300 p-2 rounded-lg text-black hover:bg-yellow-200'><Link to={resume}>UNDER DEVELOPMENT</Link></button>
+                    <button className='bg-yellow-300 p-2 rounded-lg text-black hover:bg-yellow-200'><Link to={resume}>Download Resume</Link></button>
                 
                 </div>
                 </div>
