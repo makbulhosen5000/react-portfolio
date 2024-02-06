@@ -6,6 +6,7 @@ import Contacts from '../../pages/Contact/Contact';
 import Banner from '../Banner/Banner';
 import Experiences from '../../pages/experiences/Experiences';
 import Educations from '../../pages/Educations/Educations';
+import ChatBox from '../Messenger/ChatBox';
 
 
 
@@ -21,7 +22,8 @@ const Home = () => {
         <Projects/>
         <Experiences/>
         <Educations/>
-        <Contacts/>         
+        <Contacts/>   
+        <ChatBox/>      
         </>
     );
 };
