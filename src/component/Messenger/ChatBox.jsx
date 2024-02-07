@@ -6,8 +6,8 @@ const ChatBox = () => {
     return (
       <div>
         <MessengerCustomerChat
-          pageId="118269894702805"
-          appId="1677500379392620"
+          pageId="103161434692559"
+          appId="3000396093429747"
         />
       </div>
     );
