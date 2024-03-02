@@ -12,7 +12,7 @@ const Experiences = () => {
     })
     
     return (
-        <section id="skills" className="bg-gray-200 py-8 mt-8">
+        <section  className="bg-gray-200 py-8">
         <div className="container mx-auto">
                 <h2 className="text-3xl md:text-4xl font-bold underline py-8">Experiences</h2>
 

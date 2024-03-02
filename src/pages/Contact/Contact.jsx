@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
     return (
-      <section id="skills" className="bg-gray-200 py-8 mt-8" 
+      <section  className="bg-gray-200 py-8" 
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000">
