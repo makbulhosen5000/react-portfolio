@@ -35,7 +35,7 @@ const Banner = () => {
 
 
        {/* developer profile */}
-        <div className=" my-8 rounded-xl max-w-full mx-auto bg-gray-200 p-8 shadow-xl flex items-center neumorphic-bg "   
+        <div className=" my-8 rounded-xl max-w-full mx-auto bg-gray-200 p-8 shadow-xl flex items-center neumorphic-bg flex-col sm:flex-row"   
         >
 
             <div className="flex-shrink-0"
@@ -43,7 +43,7 @@ const Banner = () => {
                 <img src={profileImage} alt="image not found" className="rounded-md w-48 h-48"  />
             </div>
 
-            <div className="ml-4  hover:bg-slate-200"
+            <div className="ml-4 hover:bg-slate-200"
              data-aos="fade-down"
              data-aos-duration="1000"> 
                 <p className="text-gray-600">From the early stages of my career to the present, I have immersed myself in the dynamic world of full-stack development, embracing emerging technologies and methodologies. My journey has equipped me with a versatile skill set, allowing me to navigate both the intricacies of server-side logic and the nuances of front-end design.
