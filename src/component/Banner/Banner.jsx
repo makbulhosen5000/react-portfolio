@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
-    let resume = "https://drive.google.com/file/d/15tC2oeDYG2amj5Mb9xgqsy22M5NsA_GC/view?usp=drive_link"
+    let resume = "https://drive.google.com/file/d/1BGZRbQVnkUM1_W8B_gN7hutuSQ749gXP/view?usp=sharing"
     return (
         <>
         <div className="bg-gray-900 text-white">
@@ -26,7 +26,7 @@ const Banner = () => {
                 </div>
                 <div className="text-start">
                
-                    <button className='bg-yellow-300 p-2 rounded-lg text-black hover:bg-yellow-200'><Link to={resume}>Download Resume</Link></button>
+                    <button className='bg-yellow-300 p-2 rounded-lg text-black hover:bg-yellow-200'><Link to={resume} target='_blank'>Download Resume</Link></button>
                 
                 </div>
                 </div>

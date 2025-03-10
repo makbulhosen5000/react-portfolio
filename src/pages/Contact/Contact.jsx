@@ -3,6 +3,7 @@ import Lottie from 'lottie-react';
 import emailjs from "@emailjs/browser";
 import {toast} from 'react-hot-toast';
 import developer1 from '../../assets/json/programming-1.json';
+import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
   const form = useRef();
@@ -31,6 +32,10 @@ const Contact = () => {
   };
 
     return (
+     <>
+        <Helmet>
+            <title> Contact | PortFolio</title>
+        </Helmet>
       <section  className="bg-gray-200 py-8" 
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
@@ -65,6 +70,7 @@ const Contact = () => {
         </div>
     </div>
     </section>
+     </>
     );
 };
 

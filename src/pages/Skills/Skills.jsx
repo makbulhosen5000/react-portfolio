@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { FaCode } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
@@ -7,6 +8,9 @@ import { FaTools } from "react-icons/fa";
 const Skills = () => {
     return (
         <>
+        <Helmet>
+            <title> Skill | PortFolio</title>
+        </Helmet>
         <section  className="bg-gray-200 py-8">
         <div className="container mx-auto">
                 <h2 className="text-3xl md:text-4xl font-bold underline py-8">Skills</h2>

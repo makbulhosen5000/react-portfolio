@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Education from './Education';
+import { Helmet } from 'react-helmet-async';
 
 
 const Educations = () => {
@@ -12,6 +13,10 @@ const Educations = () => {
     })
     
     return (
+        <>
+        <Helmet>
+            <title> Education | PortFolio</title>
+        </Helmet>
         <section  className="bg-gray-200 py-8">
         <div className="container mx-auto">
                 <h2 className="text-3xl md:text-4xl font-bold underline py-8">Education</h2>
@@ -30,6 +35,7 @@ const Educations = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 
