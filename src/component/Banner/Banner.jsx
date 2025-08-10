@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
-    let resume = "https://drive.google.com/file/d/1BGZRbQVnkUM1_W8B_gN7hutuSQ749gXP/view?usp=sharing"
+    let resume = "https://drive.google.com/file/d/1Zx8U-c796T9xqPA-7ixnwQh6yoTu2wsw/view?usp=sharing"
     return (
         <>
         <div className="bg-gray-900 text-white">
