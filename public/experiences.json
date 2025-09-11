@@ -2,34 +2,34 @@
     {
         "id":"4",
         "title":"Intern Laravel Developer",
-        "period":"October 23, 2023 - February 23,2024",
+        "period":"February,2024 - July,2024",
         "company_name":"Lomeyo LLC",
-        "company_address":"(5th Floor) 13/A/4/A, Block-B Babar Rd, Dhaka 1207",
+        "company_address":"Dhaka,Bangladesh",
         "job_type":"Remote",
         "website":"https://lomeyo.com/"
     },
     {
         "id":"3",
         "title":"Junior Laravel Developer",
-        "period":"April 01, 2022 - November 30, 2022",
+        "period":"April, 2022 - November, 2022",
         "company_name":"CreTechBD",
-        "company_address":"House#11/7 (2nd floor) Solimulla Road Mohammadpur, Dhaka",
+        "company_address":"Dhaka,Bangladesh",
         "job_type":"Desk",
         "website":"https://cretechbd.com/"
     },
     {
         "id":"2",
         "title":"Intern Laravel Developer",
-        "period":"January 01, 2020 - March 30, 2020",
+        "period":"January, 2020 - March, 2020",
         "company_name":"Winbiz Dizital Ltd",
-        "company_address":"House No. 21, Sector-13, Sonargaon Janapath, Uttara, Dhaka -1230",
+        "company_address":"Dhaka,Bangladesh",
         "job_type":"Desk",
         "website":"https://winbiz-digital.com/"
     },
     {
         "id":"1",
         "title":"Data Entry Operator & Safety Supervisor",
-        "period":"August 21, 2016 - August 17, 2017",
+        "period":"August, 2016 - August, 2017",
         "company_name":"Asia Projects Engineering Ptd. Ltd",
         "company_address":"32 Penjuru Road, Singapore",
         "job_type":"Desk",

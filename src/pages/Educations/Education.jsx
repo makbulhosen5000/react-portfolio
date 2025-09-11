@@ -1,17 +1,34 @@
-import React from 'react';
+import React from "react";
+import { Calendar, MapPin, GraduationCap, Building2 } from "lucide-react";
 
+const Education = ({ education }) => {
+  if (!education) {
+    return null;
+  }
 
-const Education = ({education}) => {
+  return (
+    <div className="bg-white border-l-4 border-indigo-600 rounded-r-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6">
+      {/* Graduation Title */}
+      <h3 className="text-2xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+        <GraduationCap className="text-indigo-600" size={22} />
+        {education?.title || "Untitled Program"}
+      </h3>
 
-    return (
-         <div className="text-green-50 bg-cover object-cover bg-center bg-no-repeat p-6 rounded-lg shadow-2xl" style={{ backgroundImage: "url('https://i.ibb.co/jzF580D/6.jpg')" }}>
-         <h3 className="text-xl font-bold mb-4"><span className='font-bold'>Graduation: </span> { education?.title } </h3>
-         <h3 className="mb-4"><span className='font-bold'>Duration: </span> { education?.period } </h3>
-         <h3 className="mb-4"><span className='font-bold'>Institute: </span>  { education?.university_name } </h3>
-         <h3 className="mb-4"><span className='font-bold'>Address: </span>  { education?.university_address } </h3>
-        
-     </div>
-    );
+      {/* Duration */}
+      <p className="flex items-center gap-2 text-gray-600 mb-2">
+        <Calendar size={18} className="text-indigo-500" />
+        <span className="font-medium">Duration:</span>{" "}
+        {education?.period || "N/A"}
+      </p>
+
+      {/* Institute */}
+      <p className="flex items-center gap-2 text-gray-600 mb-2">
+        <Building2 size={18} className="text-indigo-500" />
+        <span className="font-medium">Institute:</span>{" "}
+        {education?.university_name || "Unknown Institute"}
+      </p>
+    </div>
+  );
 };
 
 export default Education;

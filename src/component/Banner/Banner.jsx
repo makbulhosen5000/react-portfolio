@@ -3,9 +3,8 @@ import profileImage from '../../assets/images/profile.png';
 import bannerImg from '../../assets/images/banner3.jpg';
 import { Link } from 'react-router-dom';
 
-
 const Banner = () => {
-    let resume = "https://drive.google.com/file/d/1Zx8U-c796T9xqPA-7ixnwQh6yoTu2wsw/view?usp=sharing"
+    let resume = "https://drive.google.com/file/d/11i9UXrmJLY_j0dOiVRlO6VR0mKeDhBfX/view?usp=sharing"
     return (
         <>
         <div className="bg-gray-900 text-white">
