@@ -2,7 +2,7 @@
     {
         "id":"1",
         "title":"Laravel-React-Ecommerce",
-        "technology":"HTML, CSS, TAILWIND CSS, REACT, LARAVEL, MySQL",
+        "technology":"HTML, CSS, TAILWIND CSS, REACT, LARAVEL,Rest Api, MySQL",
         "features":"Laravel sanctum authentication, Restful Api, Admin dashboard, Product management, User management, Category management, Brand management, Size management, Color management, Cart management, Order management,Pagination, Responsive design",
         "link":"https://github.com/makbulhosen5000/lara-react-ecom",
         "client":"https://github.com/makbulhosen5000/lara-react-ecom",
