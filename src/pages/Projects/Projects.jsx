@@ -31,7 +31,7 @@ const Projects = () => {
             {projects.length > 0 ? (
               projects.map((project, index) => (
                 <Project
-                  key={project.id || index} // ✅ fallback key
+                  key={project.id || index} 
                   project={project}
                 />
               ))
